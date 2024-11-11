@@ -1,0 +1,78 @@
+$date
+	Sun Oct 27 23:05:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$var wire 1 ! v6 $end
+$var wire 1 " v5 $end
+$var wire 1 # v4 $end
+$var wire 1 $ v3 $end
+$var wire 1 % v2 $end
+$var wire 1 & v1 $end
+$var reg 1 ' a $end
+$var reg 1 ( b $end
+$scope module and1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 & v $end
+$upscope $end
+$scope module nand1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 " v $end
+$upscope $end
+$scope module nor1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 ! v $end
+$upscope $end
+$scope module not1 $end
+$var wire 1 ' a $end
+$var wire 1 $ v $end
+$upscope $end
+$scope module or1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 % v $end
+$upscope $end
+$scope module xor1 $end
+$var wire 1 ' a $end
+$var wire 1 ( b $end
+$var wire 1 # v $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0(
+0'
+0&
+0%
+1$
+0#
+1"
+1!
+$end
+#10
+0!
+1%
+1#
+1(
+#20
+0$
+0(
+1'
+#30
+0"
+1&
+0#
+1(
+#40
